@@ -2,11 +2,10 @@ import React from 'react'
 import './Gig.scss'
 
 const Gig = () => {
-    retuimportrn(
+    return (
 
         <div>Gig</div>
     )
 }
-import
 
 export default Gig
