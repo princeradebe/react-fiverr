@@ -4,7 +4,7 @@ import './Navbar.scss'
 
 const Navbar = () => {
     return (
-        <div className='navbar'>
+        <div className={active ? "navbaractive" : "navebar"}>
             <div className="container">
                 <div className="logo">
                     {/* <Link to="/"> */}
