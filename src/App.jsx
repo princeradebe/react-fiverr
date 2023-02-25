@@ -10,6 +10,7 @@ import Orders from './pages/orders/Orders'
 import MyGigs from './pages/mygigs/MyGigs'
 import Add from './pages/add/Add'
 import Messages from './pages/messages/Messages'
+import Message from './pages/message/Message'
 import {
   createBrowserRouter,
   Outlet,
@@ -62,7 +63,7 @@ function App() {
         },
         {
           path: "/message/:id",
-          element: <Home />,
+          element: <Message />,
         },
       ],
     }
