@@ -39,6 +39,44 @@
             gap: 24px;
             font-weight: 500;
 
+            .user {
+                position: relative;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                cursor: pointer;
+
+                img {
+                    width: 32px;
+                    height: 32px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+
+                .options {
+                    display: flex;
+                    width: 200px;
+                    font-weight: 300;
+                    flex-direction: column;
+                    gap: 10px;
+                    position: absolute;
+                    color: gray;
+                    top: 50px;
+                    right: 0;
+                    padding: 20px;
+                    background-color: white;
+                    border-radius: 10px;
+                    border: 1px solid lightgray;
+
+                    span {
+                        &:hover {
+                            color: #1dbf73;
+                        }
+                    }
+                }
+
+            }
+
             button {
                 color: white;
                 padding: 10px 20px;
