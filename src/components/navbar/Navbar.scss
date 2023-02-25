@@ -69,7 +69,8 @@
                     border-radius: 10px;
                     border: 1px solid lightgray;
 
-                    span {
+                    .link {
+
                         &:hover {
                             color: #1dbf73;
                         }
